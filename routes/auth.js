@@ -21,7 +21,7 @@ router.post(
       min: 10,
     }),
     body("gender", "gender must be either male or female").isLength({
-      min: 3,max:5
+      min: 3,max:6
     }),
     body("password", "password must contain the min 5 letters").isLength({
       min: 5,
